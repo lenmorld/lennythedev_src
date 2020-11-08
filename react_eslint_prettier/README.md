@@ -16,21 +16,7 @@ $ npm run build
 
 Parcel builds to `dist/`
 
-## storybook
-```bash
-$ npm run storybook
-```
-
-Starts storybook
-
-## build-storybook
-```bash
-$ npm run build-storybook
-```
-
-Builds storybook to `storybook-static/`
-
-# Options:
+# Customize parcel scripts
 
 Modify the npm scripts to customize dev and build options:
 
@@ -46,7 +32,7 @@ default: `parcel build index.html`
 
 customize: `parcel build <ENTRY_POINT> --d <YOUR_BUILD_DIR>`
 
-Resources:
+# Resources:
 
 https://babeljs.io/docs/en/v7-migration
 
