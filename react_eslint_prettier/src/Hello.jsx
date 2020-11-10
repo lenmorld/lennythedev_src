@@ -15,8 +15,8 @@ const Hello = ({ name }) => (
 
           {
           todos.map(todo => 
-            <li>{todo}</li>)
-              }
+            <li>{todo}</li>
+            )}
       </ul>
   </div>
 )
