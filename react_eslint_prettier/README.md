@@ -1,4 +1,4 @@
-# Minimal React setup with Parcel and Babel 7
+# Setting up ESLint, Prettier for React development in VSCode
 
 ## dev
 ```bash
@@ -15,27 +15,3 @@ $ npm run build
 ```
 
 Parcel builds to `dist/`
-
-# Customize parcel scripts
-
-Modify the npm scripts to customize dev and build options:
-
-### DEV
-
-default: `parcel index.html`
-
-customize: `parcel <ENTRY_POINT> --port <YOUR_PORT_NUMBER>`
-
-### BUILD
-
-default: `parcel build index.html`
-
-customize: `parcel build <ENTRY_POINT> --d <YOUR_BUILD_DIR>`
-
-# Resources:
-
-https://babeljs.io/docs/en/v7-migration
-
-https://parceljs.org/recipes.html
-
-https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-parcel
