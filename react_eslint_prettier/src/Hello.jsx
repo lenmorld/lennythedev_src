@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-const todos = ['eat', 'sleep', 'code']
+const todos = ["eat", "sleep", "code"]
 
 const Hello = ({ name }) => (
   <div>
