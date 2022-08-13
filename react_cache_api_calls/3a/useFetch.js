@@ -12,12 +12,12 @@ const useFetch = (searchUrl, uniqueId) => {
     // console.log("component Id: ", uniqueId);
 
     const fetchFunc = async () => {
-      // const cachedResults = cache.current[searchUrl]
-      const cachedResults = cache[searchUrl];
+      // const cachedData = cache.current[searchUrl]
+      const cachedData = cache[searchUrl];
 
-      if (cachedResults) {
+      if (cachedData) {
         console.log("✅ Using cached data");
-        setData(cachedResults);
+        setData(cachedData);
       } else {
         console.log("🌏 Fetching...");
         const raw = await fetch(searchUrl);

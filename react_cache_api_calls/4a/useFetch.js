@@ -16,16 +16,16 @@ const useFetch = (searchUrl, uniqueId) => {
     const fetchFunc = async () => {
       console.log(`${uniqueId} fetch function runs`);
 
-      // const cachedResults = cache.current[searchUrl]
-      const cachedResults = cache[searchUrl];
+      // const cachedData = cache.current[searchUrl]
+      const cachedData = cache[searchUrl];
 
       // if (isFetching) {
       //   console.log("⏳ Fetch in progress...");
       //   return;
       // }
-      if (cachedResults) {
+      if (cachedData) {
         console.log("✅ Using cached data");
-        setData(cachedResults);
+        setData(cachedData);
       } else {
         console.log("🌏 Fetching...");
 

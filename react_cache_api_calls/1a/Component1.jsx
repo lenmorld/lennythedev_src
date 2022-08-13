@@ -8,6 +8,7 @@ const Component1 = () => {
   const handleSearch = async () => {
       const searchUrl = `${SEARCH_URL}${query}`
       console.log("🌏 Fetching...")
+      
       const raw = await fetch(searchUrl);
       const result = await raw.json();
       // console.log(result)
